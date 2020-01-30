@@ -11,6 +11,7 @@ class Shoe
       "Not unique"
     else
     BRANDS << brand
+    end
   end
 
   def cobble
