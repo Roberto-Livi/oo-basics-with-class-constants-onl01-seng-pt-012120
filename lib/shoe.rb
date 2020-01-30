@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.inclue?(brand)
+    if BRANDS.include?(brand)
       "Not unique"
     else
     BRANDS << brand
